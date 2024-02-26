@@ -1,0 +1,14 @@
+.edit-table {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Chia thành 2 cột bằng nhau */
+}
+
+.edit-cell {
+  border: 1px solid #000; /* Thêm viền để phân biệt */
+  padding: 10px; /* Thêm padding cho nội dung */
+}
+
+.edit-cell1:hover {
+  color: red;
+  cursor: pointer;
+}
